@@ -8,7 +8,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Sozlamalarni yuklash
 TOKEN = os.getenv('7961321780:AAHBfG03GnP3pYX1rj5E8_gGxzTdapQcD28')
-WEBHOOK_URL = os.getenv('https://dostbot.up.railway.app')
+WEBHOOK_URL = os.getenv('https://dostbot-production.up.railway.app')
 CHANNEL_ID = os.getenv('@users1dt')
 ADMINS = [int(id) for id in os.getenv('ADMINS').split(',')]
 
