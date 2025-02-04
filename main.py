@@ -8,7 +8,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Sozlamalarni yuklash
 TOKEN = os.getenv('TELEGRAM_TOKEN')
-WEBHOOK_URL = os.getenv('RAILWAY_STATIC_URL')
+WEBHOOK_URL = os.getenv('https://dostbot.up.railway.app')
 CHANNEL_ID = os.getenv('CHANNEL_ID')
 ADMINS = [int(id) for id in os.getenv('ADMINS').split(',')]
 
